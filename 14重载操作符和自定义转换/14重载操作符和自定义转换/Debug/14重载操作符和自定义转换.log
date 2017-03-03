@@ -1,0 +1,35 @@
+﻿  14重载操作符和自定义转换.cpp
+c:\users\main\documents\visual studio 2015\projects\14重载操作符和自定义转换\14重载操作符和自定义转换\14重载操作符和自定义转换.cpp(45): error C2660: “strcpy_s”: 函数不接受 2 个参数
+c:\users\main\documents\visual studio 2015\projects\14重载操作符和自定义转换\14重载操作符和自定义转换\14重载操作符和自定义转换.cpp(51): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: 参见“strcpy”的声明
+c:\users\main\documents\visual studio 2015\projects\14重载操作符和自定义转换\14重载操作符和自定义转换\14重载操作符和自定义转换.cpp(59): error C2664: “char *strcpy(char *,const char *)”: 无法将参数 2 从“const String”转换为“const char *”
+  c:\users\main\documents\visual studio 2015\projects\14重载操作符和自定义转换\14重载操作符和自定义转换\14重载操作符和自定义转换.cpp(59): note: 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+c:\users\main\documents\visual studio 2015\projects\14重载操作符和自定义转换\14重载操作符和自定义转换\14重载操作符和自定义转换.cpp(67): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: 参见“strcpy”的声明
+c:\users\main\documents\visual studio 2015\projects\14重载操作符和自定义转换\14重载操作符和自定义转换\14重载操作符和自定义转换.cpp(71): error C2039: “opreator”: 不是“String”的成员
+  c:\users\main\documents\visual studio 2015\projects\14重载操作符和自定义转换\14重载操作符和自定义转换\14重载操作符和自定义转换.cpp(9): note: 参见“String”的声明
+c:\users\main\documents\visual studio 2015\projects\14重载操作符和自定义转换\14重载操作符和自定义转换\14重载操作符和自定义转换.cpp(71): error C2146: 语法错误: 缺少“)”(在标识符“c”的前面)
+c:\users\main\documents\visual studio 2015\projects\14重载操作符和自定义转换\14重载操作符和自定义转换\14重载操作符和自定义转换.cpp(71): error C2065: “c”: 未声明的标识符
+c:\users\main\documents\visual studio 2015\projects\14重载操作符和自定义转换\14重载操作符和自定义转换\14重载操作符和自定义转换.cpp(71): error C2059: 语法错误:“)”
+c:\users\main\documents\visual studio 2015\projects\14重载操作符和自定义转换\14重载操作符和自定义转换\14重载操作符和自定义转换.cpp(72): error C2065: “deleta”: 未声明的标识符
+c:\users\main\documents\visual studio 2015\projects\14重载操作符和自定义转换\14重载操作符和自定义转换\14重载操作符和自定义转换.cpp(72): error C2146: 语法错误: 缺少“)”(在标识符“m_data”的前面)
+c:\users\main\documents\visual studio 2015\projects\14重载操作符和自定义转换\14重载操作符和自定义转换\14重载操作符和自定义转换.cpp(73): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+c:\users\main\documents\visual studio 2015\projects\14重载操作符和自定义转换\14重载操作符和自定义转换\14重载操作符和自定义转换.cpp(73): error C2440: “初始化”: 无法从“char *”转换为“int”
+  c:\users\main\documents\visual studio 2015\projects\14重载操作符和自定义转换\14重载操作符和自定义转换\14重载操作符和自定义转换.cpp(73): note: 没有使该转换得以执行的上下文
+c:\users\main\documents\visual studio 2015\projects\14重载操作符和自定义转换\14重载操作符和自定义转换\14重载操作符和自定义转换.cpp(74): error C2466: 不能分配常量大小为 0 的数组
+c:\users\main\documents\visual studio 2015\projects\14重载操作符和自定义转换\14重载操作符和自定义转换\14重载操作符和自定义转换.cpp(74): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+c:\users\main\documents\visual studio 2015\projects\14重载操作符和自定义转换\14重载操作符和自定义转换\14重载操作符和自定义转换.cpp(74): error C2065: “c”: 未声明的标识符
+c:\users\main\documents\visual studio 2015\projects\14重载操作符和自定义转换\14重载操作符和自定义转换\14重载操作符和自定义转换.cpp(75): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+c:\users\main\documents\visual studio 2015\projects\14重载操作符和自定义转换\14重载操作符和自定义转换\14重载操作符和自定义转换.cpp(75): error C2374: “m_data”: 重定义；多次初始化
+  c:\users\main\documents\visual studio 2015\projects\14重载操作符和自定义转换\14重载操作符和自定义转换\14重载操作符和自定义转换.cpp(73): note: 参见“m_data”的声明
+c:\users\main\documents\visual studio 2015\projects\14重载操作符和自定义转换\14重载操作符和自定义转换\14重载操作符和自定义转换.cpp(76): error C2059: 语法错误:“return”
+c:\users\main\documents\visual studio 2015\projects\14重载操作符和自定义转换\14重载操作符和自定义转换\14重载操作符和自定义转换.cpp(77): error C2059: 语法错误:“}”
+c:\users\main\documents\visual studio 2015\projects\14重载操作符和自定义转换\14重载操作符和自定义转换\14重载操作符和自定义转换.cpp(77): error C2143: 语法错误: 缺少“;”(在“}”的前面)
+c:\users\main\documents\visual studio 2015\projects\14重载操作符和自定义转换\14重载操作符和自定义转换\14重载操作符和自定义转换.cpp(79): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+c:\users\main\documents\visual studio 2015\projects\14重载操作符和自定义转换\14重载操作符和自定义转换\14重载操作符和自定义转换.cpp(79): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+c:\users\main\documents\visual studio 2015\projects\14重载操作符和自定义转换\14重载操作符和自定义转换\14重载操作符和自定义转换.cpp(92): warning C4018: “<”: 有符号/无符号不匹配
+c:\users\main\documents\visual studio 2015\projects\14重载操作符和自定义转换\14重载操作符和自定义转换\14重载操作符和自定义转换.cpp(100): error C2084: 函数“String::operator char *(void)”已有主体
+  c:\users\main\documents\visual studio 2015\projects\14重载操作符和自定义转换\14重载操作符和自定义转换\14重载操作符和自定义转换.cpp(96): note: 参见“operator char *”的前一个定义
+c:\users\main\documents\visual studio 2015\projects\14重载操作符和自定义转换\14重载操作符和自定义转换\14重载操作符和自定义转换.cpp(127): error C2264: “String::operator char *”: 函数定义或声明中有错误；未调用函数
+c:\users\main\documents\visual studio 2015\projects\14重载操作符和自定义转换\14重载操作符和自定义转换\14重载操作符和自定义转换.cpp(127): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: 参见“strcpy”的声明
