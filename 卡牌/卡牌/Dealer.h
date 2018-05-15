@@ -1,7 +1,6 @@
 #pragma once
 
-#include <iostream>
-#include <String>
+
 #include "KaPian.h"
 using namespace std;
 /*
